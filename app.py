@@ -20,7 +20,7 @@ def home():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Smart URL Shortener</title>
+        <title>URL Shortener</title>
         <style>
             body {
                 font-family: 'Segoe UI', sans-serif;
