@@ -15,6 +15,7 @@ spec:
       containers:
       - name: shortener
         image: pes2ug22cs131/url-shortener:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
         env:
