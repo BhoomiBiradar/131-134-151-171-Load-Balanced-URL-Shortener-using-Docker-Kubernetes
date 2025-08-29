@@ -10,7 +10,7 @@ A containerized URL shortener built with Python and Flask. It lets users convert
 
 - **User Interaction**: Users submit long URLs and get short links.
 - **Service**: Flask app generates and redirects short URLs.
-- **Key-Value Store**: Redis stores mappings between short and long URLs.
+- **Key-Value Store**: In memory stores mappings between short and long URLs.
 - **Kubernetes**: Manages scaling and deployment.
 - **Load Balancing**: Ingress controller distributes requests.
 
@@ -62,3 +62,4 @@ A containerized URL shortener built with Python and Flask. It lets users convert
 - Kubernetes Status: ![Kubernetes Pods Status](images/Kubectl.png)  
 - Hpa Status: ![Hpa Status](images/hpa.png)  
 - Ingress Status: ![Ingress Status](images/pods.png)
+
